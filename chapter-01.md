@@ -484,9 +484,9 @@ Software must not assume any particular DLEN value or relationship between DLEN 
 
 While VLEN is fixed for a given implementation, software must not hard-code it. Instead, programs use the vector CSRs to query and adapt.
 
-### 1.15.3 SEW — Standard Element Width
+### 1.15.3 SEW — Selected Element Width
 
-SEW (Standard Element Width) is the size (in bits) of each element inside a vector register for a given operation. It is software-configurable and must be a power of two:
+SEW (Selected Element Width) is the size (in bits) of each element inside a vector register for a given operation. It is software-configurable and must be a power of two:
 
 - 8, 16, 32, 64 bits (standard integer and floating-point sizes)
 - The spec allows larger sizes (e.g., 128, 256 up to 1024 bits), but in practice many commercial implementations support up to 64 bits for performance and area reasons.
