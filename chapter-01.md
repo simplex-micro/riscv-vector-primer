@@ -261,7 +261,7 @@ At a high level, a RISC-V core with vector support looks like this:
 
 The vector register file is substantially wider than scalar registers. For example, in a design with 512-bit vector registers:
 
-- Each vector register holds multiple elements, depending on the chosen SEW (Standard Element Width):
+- Each vector register holds multiple elements, depending on the chosen SEW (Selected Element Width):
   - SEW=8 → 64 elements per register
   - SEW=16 → 32 elements per register
   - SEW=32 → 16 elements per register
