@@ -64,7 +64,7 @@ RISC-V explicitly reserves opcode space for both standard and custom extensions.
 
 "Programmable" parameters are set by the running code. These include:
 
-- **SEW (Standard Element Width):** 8, 16, 32, 64 bits (this could be configurable to remove units for larger sizes; the floating point units can add different sizes such as FP8 or BF16 as extensible instructions)
+- **SEW (Selected Element Width):** 8, 16, 32, 64 bits (this could be configurable to remove units for larger sizes; the floating point units can add different sizes such as FP8 or BF16 as extensible instructions)
 - **LMUL (register grouping)**
 - **VL (vector length)**
 
