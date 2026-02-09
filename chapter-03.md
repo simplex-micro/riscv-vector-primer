@@ -18,7 +18,7 @@ The basic requirement is straightforward: vector data consists of N elements, ea
 
 Understanding the RISC-V Vector Extension (RVV) requires familiarity with several key parameters that appear throughout the specification and implementation. These terms recur constantly in vector programming and hardware design, so precise understanding is essential. They determine the register layout, element count, memory behavior, and microarchitectural decomposition of instructions.
 
-**SEW (Standard Element Width)** specifies the width of a single vector element in bits. The supported values are 8, 16, 32, and 64 bits—all powers of two. RVV ISA specifications reserve additional encodings for larger widths like 128 bits, though this remains uncommon.
+**SEW (Selected Element Width)** specifies the width of a single vector element in bits. The supported values are 8, 16, 32, and 64 bits—all powers of two. RVV ISA specifications reserve additional encodings for larger widths like 128 bits, though this remains uncommon.
 
 **VLEN (Vector Register Length)** defines the width of a single vector register in bits. This is a design-time constant fixed at implementation. A common implementation choice is VLEN equal to 512 bits, though 1024, 256 and 128 bits are also widely supported. Throughout this chapter, we use 512 bits as the running example.
 
