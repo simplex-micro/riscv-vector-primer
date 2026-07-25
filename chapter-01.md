@@ -657,4 +657,6 @@ For now, if you only remember one thing from this chapter, let it be this:
 
 The decision to decouple the ISA from a fixed vector width enables RVV cores to scale from small embedded controllers to large data-center processors, all while executing the same vectorized code.
 
-**See this in action:** the SimplEx performance model reveals exactly where cycles are won or lost in a RISC-V vector architecture — cache misses, branch mispredictions, pipeline stalls, visualized cycle by cycle. [Watch a walkthrough on youtube →](https://www.youtube.com/watch?v=NJCtiVtHmhU)
+**See this in action:** the SimplEx performance model reveals exactly where cycles are won or lost in a RISC-V vector architecture — cache misses and branch mispredictions, visualized cycle by cycle. [Watch a walkthrough on YouTube →](https://www.youtube.com/watch?v=NJCtiVtHmhU)
+
+Any questions, email the author [thang@simplexmicro.com](mailto:thang@simplexmicro.com).
